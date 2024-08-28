@@ -27,8 +27,7 @@ def create_ow_entries(name, size):
         ow_entry = {
             "id": "",
             "meta": {
-                "name": f"{name} #{i}",
-                "attributes": []
+                "name": f"{name} #{i}"
             }
         }
         ow_entries.append(ow_entry)
